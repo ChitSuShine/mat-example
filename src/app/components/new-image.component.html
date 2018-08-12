@@ -1,0 +1,11 @@
+<form #form="ngForm" (ngSubmit)="processForm()">
+    <mat-form-field>
+      <input type="text" name="imageURL" placeholder="Enter your image here" 
+          matInput ngModel>
+    </mat-form-field>
+  
+    <button type="submit" mat-button mat-raised-button color="accent">
+      <mat-icon>exposure_plus_1</mat-icon>
+      Add
+    </button>
+  </form>
